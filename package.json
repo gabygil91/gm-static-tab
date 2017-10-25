@@ -5,12 +5,14 @@
   "description": "A nodejs webapp with angular and mongodb skeleton",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "localDev": "nodemon server.js"
   },
   "dependencies": {
+    "body-parser": "1.13.1",
+    "express": "4.13.3",
     "mongoose": ">=4.1.11",
-	"body-parser": "1.13.1",
-    "express": "4.13.3"
+    "nodemon": "^1.12.1"
   },
   "engines": {
     "node": "0.12.7"

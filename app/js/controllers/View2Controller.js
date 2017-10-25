@@ -1,6 +1,5 @@
 'use strict';
 
-myApp.controller('View2Controller',
-    function SecretsController($scope, $location, secretsData) {
+myApp.controller('view2Controller', function ($scope, $location, secretsData) {
 
 });
