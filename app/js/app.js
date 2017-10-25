@@ -19,3 +19,5 @@ var myApp = angular.module('myApp', ['ngRoute'])
         $routeProvider.otherwise({redirectTo: '/main'});
         $locationProvider.html5Mode(true);
     });
+
+    microsoftTeams.settings.setValidityState(true);
