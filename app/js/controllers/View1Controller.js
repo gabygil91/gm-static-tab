@@ -12,10 +12,9 @@ myApp.controller('view1Controller', function($scope, $location, $http) {
     microsoftTeams.initialize();
     microsoftTeams.settings.setSettings({
         entityId: "gmQA",
-        contentUrl: "https://stark-chamber-28124.herokuapp.com/main",
+        contentUrl: "https://stark-chamber-28124.herokuapp.com",
         suggestedDisplayName: "GM Q/A",
-        websiteUrl: "https://stark-chamber-28124.herokuapp.com/main",
-        removeUrl: "https://teams-get-started-sample.azurewebsites.net/tabremove.html",
+        websiteUrl: "https://stark-chamber-28124.herokuapp.com"
      });
     // microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
     //     microsoftTeams.settings.setSettings({
