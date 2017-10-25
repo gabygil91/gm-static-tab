@@ -38,7 +38,10 @@
 
     <div ng-view class="view"></div>
 </div>
-
+<form>
+    <input type="radio" name="maptype" value="bing" onclick="onClick()"> Bing Maps<br>
+    <input type="radio" name="maptype" value="google" onclick="onClick()"> Google Maps
+</form> 
 <script type="text/javascript" src="/lib/jquery-1.12.0.js"></script>
 <script type="text/javascript" src="/lib/underscore-1.4.4.min.js"></script>
 <script type="text/javascript" src="/lib/bootstrap.min.js"></script>
@@ -64,8 +67,10 @@ microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
       });
     saveEvent.notifySuccess();
 });
-microsoftTeams.settings.setValidityState(true);
-  
+
+function onClick() {
+    microsoftTeams.settings.setValidityState(true);
+}
     </script>
 </body>
 </html>
