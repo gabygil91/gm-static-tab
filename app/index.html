@@ -51,6 +51,13 @@
 <script type="text/javascript" src="/js/controllers/View1Controller.js"></script>
 <script type="text/javascript" src="/js/controllers/View2Controller.js"></script>
 <script src="https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js" />
-
+<script type="text/javascript">  
+    
+    microsoftTeams.initialize();  
+    function onClick() {
+        microsoftTeams.settings.setValidityState(true);
+    }
+    
+    </script>
 </body>
 </html>
