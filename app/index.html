@@ -53,9 +53,18 @@
 <script src="https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js" />
 <script type="text/javascript">  
     
-    microsoftTeams.initialize(); 
-    microsoftTeams.settings.setValidityState(true);
-    
+microsoftTeams.initialize();
+microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
+    microsoftTeams.settings.setSettings({
+         entityId: "gmQA",
+         contentUrl: "https://stark-chamber-28124.herokuapp.com/main",
+         suggestedDisplayName: "GM Q/A",
+         websiteUrl: "https://stark-chamber-28124.herokuapp.com/main",
+         removeUrl: "https://teams-get-started-sample.azurewebsites.net/tabremove.html",
+      });
+    saveEvent.notifySuccess();
+});
+  
     </script>
 </body>
 </html>
