@@ -1,8 +1,8 @@
 {
   "name": "my-web-skeleton",
   "version": "0.1.5",
-  "author": "Yotam Hakim",
-  "description": "A nodejs webapp with angular and mongodb skeleton",
+  "author": "GSMC",
+  "description": "Q&A interface for GM bot",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

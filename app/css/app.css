@@ -1,90 +1,110 @@
 /*Write your CSS here*/
-body{
-    background-color: #eaeaea;
+
+body {
+  background-color: #eaeaea;
 }
+
 .question-tile {
-float: left;
-margin-right: 20px;
-background-color: white;
-width: 20%;
-min-height: 150px;
-margin-bottom: 20px;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-padding: 20px;
+  float: left;
+  margin-right: 20px;
+  background-color: white;
+  width: 20%;
+  min-height: 150px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .qa-answer {
-    margin-top: 10px;
+  margin-top: 10px;
 }
+
+.qa-answer input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 
 /* On mouse-over, add a deeper shadow */
-.question-tile:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
 
+.question-tile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 .gridListdemoBasicUsage md-grid-list {
-    margin: 8px; }
-  
-  .gridListdemoBasicUsage .gray {
-    background: #f5f5f5; }
-  
-  .gridListdemoBasicUsage .green {
-    background: #b9f6ca; }
-  
-  .gridListdemoBasicUsage .yellow {
-    background: #ffff8d; }
-  
-  .gridListdemoBasicUsage .blue {
-    background: #84ffff; }
-  
-  .gridListdemoBasicUsage .purple {
-    background: #b388ff; }
-  
-  .gridListdemoBasicUsage .red {
-    background: #ff8a80; }
-  
-  .gridListdemoBasicUsage md-grid-tile {
-    transition: all 400ms ease-out 50ms; }
-  
-  
+  margin: 8px;
+}
+
+.gridListdemoBasicUsage .gray {
+  background: #f5f5f5;
+}
+
+.gridListdemoBasicUsage .green {
+  background: #b9f6ca;
+}
+
+.gridListdemoBasicUsage .yellow {
+  background: #ffff8d;
+}
+
+.gridListdemoBasicUsage .blue {
+  background: #84ffff;
+}
+
+.gridListdemoBasicUsage .purple {
+  background: #b388ff;
+}
+
+.gridListdemoBasicUsage .red {
+  background: #ff8a80;
+}
+
+.gridListdemoBasicUsage md-grid-tile {
+  transition: all 400ms ease-out 50ms;
+}
+
+
 /* Custom Navbar */
+
 #custom-bootstrap-menu .navbar-brand {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
 }
+
 #custom-bootstrap-menu {
-    font-size: 18px;
-    background-color: rgba(0, 0, 0, 1);
-    border-width: 0px;
-    border-radius: 2px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 1);
+  border-width: 0px;
+  border-radius: 2px;
 }
+
 #custom-bootstrap-menu .navbar-nav>li>a {
-    color: rgba(119, 119, 119, 1);
-    background-color: rgba(0, 0, 0, 1);
+  color: rgba(119, 119, 119, 1);
+  background-color: rgba(0, 0, 0, 1);
 }
-#custom-bootstrap-menu .navbar-nav>li>a:hover,
-#custom-bootstrap-menu .navbar-nav>li>a:focus {
-    color: rgba(186, 186, 186, 1);
-    background-color: rgba(255, 255, 255, 1);
+
+#custom-bootstrap-menu .navbar-nav>li>a:hover, #custom-bootstrap-menu .navbar-nav>li>a:focus {
+  color: rgba(186, 186, 186, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
-#custom-bootstrap-menu .navbar-nav>.active>a,
-#custom-bootstrap-menu .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(255, 255, 255, 1);
+
+#custom-bootstrap-menu .navbar-nav>.active>a, #custom-bootstrap-menu .navbar-nav>.active>a:hover, #custom-bootstrap-menu .navbar-nav>.active>a:focus {
+  color: rgba(85, 85, 85, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
+
 #custom-bootstrap-menu .navbar-toggle {
-    border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
 }
-#custom-bootstrap-menu .navbar-toggle:hover,
-#custom-bootstrap-menu .navbar-toggle:focus {
-    background-color: rgba(255, 255, 255, 1);
+
+#custom-bootstrap-menu .navbar-toggle:hover, #custom-bootstrap-menu .navbar-toggle:focus {
+  background-color: rgba(255, 255, 255, 1);
 }
+
 #custom-bootstrap-menu .navbar-toggle .icon-bar {
-    background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
-#custom-bootstrap-menu .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu .navbar-toggle:focus .icon-bar {
-    background-color: #000000;
+
+#custom-bootstrap-menu .navbar-toggle:hover .icon-bar, #custom-bootstrap-menu .navbar-toggle:focus .icon-bar {
+  background-color: #000000;
 }
