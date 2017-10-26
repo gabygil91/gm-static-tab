@@ -2,7 +2,7 @@
 
 myApp.controller('view1Controller', function($scope, $location, $http) {
     $scope.title = "this is the title whooo";
-    $scope.onClick = onClick;
+    //$scope.onClick = onClick;
   $http.get("https://jsonplaceholder.typicode.com/posts/1")
     .then(function(response) {
       console.log(response.data)
