@@ -4,22 +4,23 @@ body {
   background-color: #eaeaea;
 }
 
-.question-tile {
-  float: left;
-  margin-right: 20px;
+#questions {
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question {
+  margin: 20px;
   background-color: white;
-  width: 20%;
-  min-height: 150px;
+  width: 250px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
 
-.qa-answer {
-  margin-top: 10px;
-}
-
-.qa-answer input {
+.question input {
   width: 100%;
   margin-bottom: 10px;
 }

@@ -11,7 +11,8 @@ myApp.controller('mainController', function($scope, $location, $http) {
     }
     $http.get("https://hackatron-api.herokuapp.com/api/getAllQuestions")
     .then(function(response) {
+      console.log(response.data)
       $scope.results = response.data;
     })
- 
+
 })

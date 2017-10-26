@@ -1,25 +1,23 @@
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
+    <div>
+        <div>
+            <div>
               <h1 style="text-align: center; margin-bottom: 20px">
                   {{title}}
                 </h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div ng-repeat="item in results" class="question-tile">
+        <div id="questions">
+                <div class="question" ng-repeat="item in results">
                     {{item.question}}
-                    <div class="qa-answer input-group">
+                    <div data-quest-id="{{ item['quest_id'] }}" >
                       <input type="text" ng-model="answer">
-                      <button>
+                      <button type="button" class="btn">
                           Go
                         </button>
                     </div>
-                    
-                  </div>
-            </div>
+
+                </div>
         </div>
-        
+
     </div>
