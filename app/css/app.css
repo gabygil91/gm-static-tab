@@ -1,10 +1,27 @@
 /*Write your CSS here*/
+body{
+    background-color: #eaeaea;
+}
 .question-tile {
 float: left;
-margin-right: 20ox;
-background-color: grey;
-width: 20%
+margin-right: 20px;
+background-color: white;
+width: 20%;
+min-height: 100px;
+margin-bottom: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding: 20px;
 }
+
+.qa-answer {
+    margin-top: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.question-tile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 
 .gridListdemoBasicUsage md-grid-list {
     margin: 8px; }
