@@ -3,8 +3,10 @@
         <div class="row">
             <h1 class="col-md-12" style="text-align: center">
                 {{title}}
-                {{test}}
             </h1>
         </div>
+    </div>
+    <div ng-repeat="item in results" class="question-tile">
+      {{item.question}}
     </div>
 </div>
