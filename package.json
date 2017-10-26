@@ -5,7 +5,8 @@
   "description": "A nodejs webapp with angular and mongodb skeleton",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "localDev": "nodemon server.js"
   },
   "dependencies": {
     "angular-masonry": "^0.17.0",
